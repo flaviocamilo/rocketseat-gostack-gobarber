@@ -4,7 +4,7 @@
 	},
 	"extends": ["plugin:prettier/recommended"],
 	"globals": {
-		"__PATH_PREFIX__": true,
+		"__PATH_PREFIX__": "writable",
 		"Atomics": "readonly",
 		"SharedArrayBuffer": "readonly"
 	},
