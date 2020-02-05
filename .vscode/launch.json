@@ -2,11 +2,27 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "node",
+			"protocol": "inspector",
+			"request": "launch",
+			"name": "Debug",
+			"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/nodemon",
+			"program": "${workspaceFolder}/src/server.js",
+			"restart": true,
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"skipFiles": ["<node_internals>/**"]
+		},
+		{
 			"type": "pwa-node",
 			"request": "launch",
-			"name": "Launch Program",
-			"skipFiles": ["<node_internals>/**"],
-			"program": "${workspaceFolder}/index.js"
+			"name": "Debug (New)",
+			"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/nodemon",
+			"program": "${workspaceFolder}/src/server.js",
+			"restart": true,
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"skipFiles": ["<node_internals>/**"]
 		}
 	]
 }
