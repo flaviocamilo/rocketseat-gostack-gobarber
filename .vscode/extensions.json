@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"ms-vscode.js-debug-nightly"
+	],
+	"unwantedRecommendations": []
+}

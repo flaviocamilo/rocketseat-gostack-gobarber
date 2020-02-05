@@ -1,0 +1,33 @@
+{
+	"debug.node.autoAttach": "disabled",
+	"debug.node.useV3": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.fixAll.eslint": true,
+		"source.organizeImports": true
+	},
+	"editor.detectIndentation": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.lintTask.enable": true,
+	"eslint.packageManager": "yarn",
+	"files.eol": "\n",
+	"files.trimFinalNewlines": true,
+	"html.format.indentInnerHtml": true,
+	"javascript.format.semicolons": "insert",
+	"npm.packageManager": "yarn",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
